@@ -1,4 +1,4 @@
-package ahmad;
+package com.ahmad.oopsintro;
 
 public class Company {
     String companyName;
