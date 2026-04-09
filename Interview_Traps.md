@@ -16,4 +16,4 @@
 **A:** The Diamond Problem. If `Class C extends Class A, Class B`, and both A and B have a method called `display()`, Class C will be confused about which `display()` to run. (Note: Java solves this later using Interfaces).
 
 **Q: What is the ultimate parent class of every single class in Java?**
-**A:** The `Object` class. Every class you ever write automatically extends `Object` behind the scenes.
+**A:** The `Object` class. Every class you ever write automatically extends `Object` behind the scenes. 
