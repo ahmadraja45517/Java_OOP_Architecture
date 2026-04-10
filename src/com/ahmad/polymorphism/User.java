@@ -1,6 +1,6 @@
 package com.ahmad.polymorphism;
 
-public class User {
+public abstract class User {
     String name;
     String email;
 
@@ -29,4 +29,6 @@ public class User {
     void displayProfile(){
         System.out.println("Name: " + this.name + "\nEmail: " + this.email);
     }
+
+    public abstract void accessDashboard();
 }

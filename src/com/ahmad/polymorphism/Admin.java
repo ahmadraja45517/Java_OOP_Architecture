@@ -17,4 +17,8 @@ public class Admin extends User {
         super(name, email);
         this.department = department;
     }
+
+    public void accessDashboard(){
+        System.out.println("Opening Student Placement Portal...");
+    }
 }

@@ -39,7 +39,13 @@ public class Main {
 //        User s1 = new Student();
 //        s1.displayProfile();
 
-        User myUser = new User("Ahmad", "ahmad@gmail.com");
-        myUser.displayProfile();
+//        User myUser = new User("Ahmad", "ahmad@gmail.com");
+//        myUser.displayProfile();
+
+        Student ahmad = new Student();
+        ahmad.setCgpa(10.5);
+        System.out.println(ahmad.getCgpa());
+
+//        User generic = new User();
     }
 }
